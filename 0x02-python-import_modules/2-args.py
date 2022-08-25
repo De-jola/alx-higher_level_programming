@@ -2,7 +2,7 @@
 def print_argv(argv):
     i = len(argv) - 1
     if i == 0:
-        print("{:d} argument.".format(i))
+        print("{:d} arguments.".format(i))
         return
     else:
         if i == 1:
