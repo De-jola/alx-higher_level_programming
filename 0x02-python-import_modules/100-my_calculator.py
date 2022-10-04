@@ -13,13 +13,13 @@ def calculate():
     operator = sys.argv[2]
     b = int(sys.argv[3])
     if operator == '+':
-        print("{:d} {} {:d} = {:d}".format(a, operator, b, add(a, b)))
+        print("{:d} {:s} {:d} = {:d}".format(a, operator, b, add(a, b)))
     elif operator == '-':
-        print("{:d} {} {:d} = {:d}".format(a, operator, b, sub(a, b)))
+        print("{:d} {:s} {:d} = {:d}".format(a, operator, b, sub(a, b)))
     elif operator == '*':
-        print("{:d} {} {:d} = {:d}".format(a, operator, b, mul(a, b)))
+        print("{:d} {:s} {:d} = {:d}".format(a, operator, b, mul(a, b)))
     elif operator == '/':
-        print("{:d} {} {:d} = {:.2f}".format(a, operator, b, div(a, b)))
+        print("{:d} {:s} {:d} = {:.2f}".format(a, operator, b, div(a, b)))
     else:
         print("Unkown operator. Available operators: +, -, * and /")
         exit(1)
