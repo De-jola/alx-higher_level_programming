@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
+
 class Square:
-    """An empty class called Square
+    """This documentation is always available. The class Square is an empty class.
     """
     pass
