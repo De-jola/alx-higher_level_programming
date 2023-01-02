@@ -2,6 +2,6 @@
 
 
 class Square:
-    """This documentation is always available. Square is an empty class
+    """Class Square
     """
     pass
