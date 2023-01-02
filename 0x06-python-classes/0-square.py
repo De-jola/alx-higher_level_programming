@@ -2,6 +2,7 @@
 
 """An empty square class"""
 
+
 class Square:
     """Class Square
     """
